@@ -1,0 +1,127 @@
+$blue: rgb(220, 220, 220);
+$bg: rgb(0, 0, 0);
+
+/* Header */
+
+header{ 
+    width: 100%;
+    z-index: 1;
+}
+
+/* Hero Image */
+
+#hero {
+margin-bottom: 0rem;
+padding: 3rem 0 0 0;
+}
+
+#hero img{
+    width: 100%;
+}
+
+body{
+    background: $bg;
+}
+
+#best, #seasons, #characters {
+    background: $bg;
+    color:grey;
+    padding: 2%;
+    position: center;
+}
+
+/* Best Episodes */
+
+#best img{
+    width: 100%;
+    height: 20rem;
+}
+
+#best .card-body{
+    background: $bg;
+    height: 10rem;
+    overflow: hidden;
+}
+
+/* Seasons */
+
+#seasons img{
+    width: 100%;
+    height: 30rem;
+}
+
+#seasons .card-body{
+    background: $bg;
+}
+
+/* Characters */
+
+#characters img{
+    width: 100%;
+    height: 20rem;
+}
+
+#characters .card-body{
+    background: $bg;
+}
+
+/* Pagination */
+
+#pages{
+    background: $bg;
+}
+
+#pages .page-link{
+    background-color: $bg;
+    color: white;
+}
+
+/* Feedback Form & Series */
+
+.others{
+    display: flex;
+    flex-flow: row wrap;
+    color:$bg;
+}
+
+#feedback, .series{
+    width: 40%;
+    margin: 3% 5%;
+}
+
+.badge{
+    float: right;
+    background: blue;
+    color: white;
+}
+
+/* Footer */
+
+footer{
+    background: $bg;
+}
+
+footer .card{
+    background: $bg;
+    color: white;
+    margin: 1rem 2rem;
+}
+
+.icon a{
+    padding: 2%;
+}
+
+/* Media Queries */
+
+@media (max-width: 600px){
+    .others{
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    #feedback, .series{
+        width: 90%;
+        margin: 3% 5%;
+    }
+
+}
